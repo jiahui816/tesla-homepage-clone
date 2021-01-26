@@ -19,11 +19,22 @@
 .header__center {
   flex: 1;
   display: flex;
-  justify-content: space-between;
-  margin-left: 130px;
-  margin-right: 130px;
+  justify-content: center;
+}
+
+.header__center > p {
+  margin: 10px;
+  text-transform: uppercase;
+  justify-content: flex-end;
+}
+
+.header__right > p {
+  text-transform: uppercase;
+  margin: 10px;
 }
 
 .header__right {
   display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
 }
