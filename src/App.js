@@ -28,7 +28,7 @@ function App() {
           first
         />
         <Item
-          title="Car Charger"
+          title="Powerwall"
           desc="Charge Your Car in 3 Hours"
           descLink=""
           backgroundImg={Accessories}

@@ -26,12 +26,14 @@
   margin: 10px;
   text-transform: uppercase;
   justify-content: flex-end;
+  cursor: pointer;
 }
 
 .header__right > p {
   text-transform: uppercase;
   margin: 10px;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .header__right {

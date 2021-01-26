@@ -13,7 +13,7 @@ function Header() {
         <p>Model 3</p>
         <p>Model X</p>
         <p>Model Y</p>
-        <p>Cybertruck</p>
+        <p>Solar Panel</p>
         <p>Powerwall</p>
       </div>
       <div className="header__right">
