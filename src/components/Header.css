@@ -19,4 +19,11 @@
 .header__center {
   flex: 1;
   display: flex;
+  justify-content: space-between;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.header__right {
+  display: flex;
 }
