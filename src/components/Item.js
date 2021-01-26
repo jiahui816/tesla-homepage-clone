@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import "./Item.css";
 function Item({
@@ -7,7 +6,7 @@ function Item({
   desc,
   descLink,
   backgroundImg,
-  leftBtntxt,
+  leftBtnTxt,
   leftBtnLink,
   rightBtnTxt,
   rightBtnLink,
@@ -30,12 +29,6 @@ function Item({
         </div>
 
         <div className="item__lowerThird">
-          <div className="item__buttons">
-            <Button imp="primary" text={leftBtnLink} link={leftBtnLink} />
-            {twoButtons && (
-              <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
-            )}
-          </div>
           {first && (
             <div className="item__expand">
               <ExpandMoreIcon />{" "}

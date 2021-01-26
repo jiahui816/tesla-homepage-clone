@@ -28,10 +28,10 @@ function App() {
           first
         />
         <Item
-          title="Lowest Cost Solar Panels in America"
-          desc="Money-back guarantee"
+          title="Car Charger"
+          desc="Charge Your Car in 3 Hours"
           descLink=""
-          backgroundImg={SolarPanels}
+          backgroundImg={Accessories}
           leftBtnTxt="ORDER NOW"
           leftBtnLink=""
           rightBtnTxt="LEARN MORE"
